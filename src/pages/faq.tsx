@@ -95,7 +95,9 @@ export default function faq() {
 					</summary>
 
 					<p className="mt-4 leading-relaxed text-gray-700">
-						Hello put smth here
+						Yes, this battery could be extended to various other applications
+						such as portable electronics, and other devices that require a more
+						effecient power source.
 					</p>
 				</details>
 				<details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
@@ -138,7 +140,10 @@ export default function faq() {
 					</summary>
 
 					<p className="mt-4 leading-relaxed text-gray-700">
-						Hello put smth here
+						Yes, this battery could completely replace lithium ion batteries. As
+						it's made with more abudant materials it'll be easier and more
+						sustainable to produce. It's also more efficient and has a longer
+						life than Li-ion batteries.
 					</p>
 				</details>
 			</div>

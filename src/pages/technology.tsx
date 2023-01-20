@@ -12,7 +12,7 @@ export default function technology() {
 			<h2 className="font-semibold text-5xl text-black">
 				The Aluminum-Sulfur Battery
 			</h2>
-			<div className="p-5 bg-neutral-400 mt-10 rounded-lg">
+			<div className="p-5 bg-neutral-300 mt-10 rounded-lg">
 				<h3 className="font-semibold text-2xl">How does it work?</h3>
 				<div className="flex pt-6 gap-3 justify-center flex-wrap items-stretch text-center">
 					<div className="flex flex-col gap-3 w-48 items-center p-5 rounded-lg">

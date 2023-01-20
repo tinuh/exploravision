@@ -11,7 +11,7 @@ export default function Nav() {
 	const router = useRouter();
 
 	return (
-		<div className="flex flex-col justify-between h-screen bg-neutral-50 border-r">
+		<div className="flex flex-col shadow-xl justify-between h-screen bg-neutral-50 border-r">
 			<div className="px-4 py-6">
 				<h1 className="pl-5 font-bold text-neutral-700">Al-S Battery</h1>
 
