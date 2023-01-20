@@ -6,12 +6,13 @@ export default function Impact() {
 			<h1 className="font-bold text-3xl">The Impact</h1>
 			<div className="flex flex-wrap py-8 gap-5">
 				<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-					<a href="#">
+					<a href="#" className="relative">
 						<img
 							className="rounded-t-lg"
 							src="https://cdn.motor1.com/images/mgl/G4z31/s3/tesla-roadster.jpg"
 							alt="Electric cars are the future"
 						/>
+						<p className="absolute bottom-1 right-2 text-white">Inside EVs</p>
 					</a>
 					<div className="p-5">
 						<a href="#">
@@ -27,12 +28,15 @@ export default function Impact() {
 					</div>
 				</div>
 				<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-					<a href="#">
+					<a href="#" className="relative">
 						<img
 							className="rounded-t-lg"
 							src="/assets/trees.jpg"
 							alt="Electric cars are the future"
 						/>
+						<p className="absolute bottom-1 right-2 text-white">
+							City of Wisconsin Dells
+						</p>
 					</a>
 					<div className="p-5">
 						<a href="#">
@@ -49,12 +53,13 @@ export default function Impact() {
 					</div>
 				</div>
 				<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-					<a href="#">
+					<a href="#" className="relative">
 						<img
 							className="rounded-t-lg"
 							src="/assets/fire.jpg"
 							alt="Electric cars are the future"
 						/>
+						<p className="absolute bottom-1 right-2 text-white">ERI Direct</p>
 					</a>
 					<div className="p-5">
 						<a href="#">

@@ -55,7 +55,10 @@ export default function faq() {
 					</p>
 				</details>
 
-				<details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+				<details
+					open
+					className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+				>
 					<summary className="flex items-center justify-between cursor-pointer">
 						<h2 className="font-medium text-gray-900">
 							Could the battery be extended to other applications?
@@ -100,7 +103,10 @@ export default function faq() {
 						effecient power source.
 					</p>
 				</details>
-				<details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+				<details
+					open
+					className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+				>
 					<summary className="flex items-center justify-between cursor-pointer">
 						<h2 className="font-medium text-gray-900">
 							Could this battery completely replace lithium ion batteires?
