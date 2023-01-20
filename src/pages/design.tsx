@@ -8,11 +8,14 @@ export default function design() {
 			</h1>
 			<div className="w-2/3 flex gap-8 pt-8">
 				<div className="flex-1">
-					<img
-						src="https://s3-us-west-1.amazonaws.com/contentlab.studiod/3/2/ce1d88e335f44547b60b4ab00a263efa.png"
-						alt="battery diagram"
-						className="rounded-lg mb-5"
-					/>
+					<div className="relative">
+						<img
+							src="https://s3-us-west-1.amazonaws.com/contentlab.studiod/3/2/ce1d88e335f44547b60b4ab00a263efa.png"
+							alt="battery diagram"
+							className="rounded-lg mb-5"
+						/>
+						<p className="absolute text-black bottom-1 right-2">Sciencing</p>
+					</div>
 					<p>
 						The cathode is is the positive or oxidizing electrode that acquires
 						electrons from the external circuit and is reduced during the
