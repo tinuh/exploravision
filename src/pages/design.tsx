@@ -6,7 +6,7 @@ export default function design() {
 			<h1 className="font-bold text-3xl">
 				Aluminum Cathode + Sulfur Anode + Carbonate Electrolyte
 			</h1>
-			<div className="w-2/3 flex gap-8 pt-8">
+			<div className=" flex gap-8 pt-8">
 				<div className="flex-1">
 					<div className="relative">
 						<img
