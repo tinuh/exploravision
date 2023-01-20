@@ -5,43 +5,70 @@ export default function Impact() {
 		<div className="p-10">
 			<h1 className="font-bold text-3xl">The Impact</h1>
 			<div className="flex flex-wrap py-8 gap-5">
-				<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-neutral-800 dark:border-neutral-700">
+				<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
 					<a href="#">
 						<img
 							className="rounded-t-lg"
-							src="/docs/images/blog/image-1.jpg"
-							alt=""
+							src="https://cdn.motor1.com/images/mgl/G4z31/s3/tesla-roadster.jpg"
+							alt="Electric cars are the future"
 						/>
 					</a>
 					<div className="p-5">
 						<a href="#">
-							<h5 className="mb-2 text-2xl font-bold tracking-tight text-neutral-900 dark:text-white">
-								Noteworthy technology acquisitions 2021
+							<h5 className="mb-2 text-2xl font-bold tracking-tight text-neutral-900 ">
+								Increased Performance & Range in EVs
 							</h5>
 						</a>
-						<p className="mb-3 font-normal text-neutral-700 dark:text-neutral-400">
-							Here are the biggest enterprise technology acquisitions of 2021 so
-							far, in reverse chronological order.
+						<p className="mb-3 font-normal text-neutral-700 ">
+							With the reduction in weight and increase in energy density, EVs
+							can now have ranges upward of 600 miles. Additionally, with a
+							higher power density they can deliver more power to the wheels.
 						</p>
-						<a
-							href="#"
-							className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-						>
-							Read more
-							<svg
-								aria-hidden="true"
-								className="w-4 h-4 ml-2 -mr-1"
-								fill="currentColor"
-								viewBox="0 0 20 20"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									fill-rule="evenodd"
-									d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-									clip-rule="evenodd"
-								></path>
-							</svg>
+					</div>
+				</div>
+				<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
+					<a href="#">
+						<img
+							className="rounded-t-lg"
+							src="/assets/trees.jpg"
+							alt="Electric cars are the future"
+						/>
+					</a>
+					<div className="p-5">
+						<a href="#">
+							<h5 className="mb-2 text-2xl font-bold tracking-tight text-neutral-900 ">
+								Sustainable
+							</h5>
 						</a>
+						<p className="mb-3 font-normal text-neutral-700 ">
+							Aluminum Sulfur batteries are made from abundant, renewable and
+							low cost materials. Compared to lithium, aluminum can be sourced
+							much more easily and sustainably. This makes them a sustainable
+							alternative to Lithium ion batteries.
+						</p>
+					</div>
+				</div>
+				<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
+					<a href="#">
+						<img
+							className="rounded-t-lg"
+							src="/assets/fire.jpg"
+							alt="Electric cars are the future"
+						/>
+					</a>
+					<div className="p-5">
+						<a href="#">
+							<h5 className="mb-2 text-2xl font-bold tracking-tight text-neutral-900 ">
+								Safe & Non-flammable
+							</h5>
+						</a>
+						<p className="mb-3 font-normal text-neutral-700 ">
+							Unlike, Lithium Ion batteries, Aluminum Sulfur batteries are
+							non-flammable and do not release any toxic gasses. They also have
+							a high electrochemical stability, which means they are less prone
+							to degradation over time. The production of Al-S batteries also
+							generates fewer greenhouse gas emissions than Li-ion batteries.
+						</p>
 					</div>
 				</div>
 			</div>
