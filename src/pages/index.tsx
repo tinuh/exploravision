@@ -35,12 +35,15 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div>
+				<div className="relative">
 					<img
 						src="/assets/energy.png"
 						alt="battery diagram"
 						className="rounded-lg mb-5 h-80"
 					/>
+					<p className="absolute -bottom-1 right-0 text-black">
+						U.S. Energy Information Administration, 2011
+					</p>
 				</div>
 			</div>
 			<div className="flex gap-5 pt-5 items-center w-1/2">
